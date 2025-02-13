@@ -1,0 +1,29 @@
+/*==================================================
+ギャラリーのためのcss
+  サンプルコード：複数の画像を一覧で見せる | 動くWebデザインアイディア帳
+  https://coco-factory.jp/ugokuweb/move01/6-2-1/
+===================================*/
+
+.gallery li {
+    margin-bottom: 20px;/*各画像下に余白をつける*/
+    list-style:none;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.gallery img{
+	width:100%;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.gallery{
+	columns:3;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	.gallery{
+	columns: 2;
+	}	
+}

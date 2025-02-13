@@ -1,0 +1,119 @@
+#menu ul li {
+  display:initial;
+  font-size: 1.6rem;
+  flex-shrink: 800px;
+}
+
+#menu ul {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo,img {
+  margin: 20px auto 10px auto;
+  width: 300px;
+}
+
+.melon img {
+  width: 800px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.melon2 img {
+  width: 750px;
+  margin: 10px auto;
+  padding: 0 0 0 200px;
+  text-align: center;
+}
+
+h1.caption {
+  margin: 30px 0 0 230px;
+  padding: 2px 80px;
+
+  font-size: 2.3rem;
+  border-radius: 60px; 
+}
+
+h3.message {
+  margin-top: 30px;
+  margin-left: 305px;
+  font-size: 1.3rem;
+  color:  #6F625A;
+  line-height: 50px;
+}
+
+h1.caption_about {
+  margin: 50px 150px 20px 150px;
+  font-size: 1.9rem;
+  letter-spacing: 10px;
+  border-width: 10px;
+  border-radius: 50px; 
+  text-align: center;
+}
+
+h1.caption_works {
+  margin: 50px 150px 20px 150px;
+  padding: 0px 40px;
+  color: #A18E8F;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+}
+/*
+.message_more span {
+  display:  inline-block;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+*/
+.timeline {
+	margin: 10px 150px;
+}
+
+.komidashi {
+  font-size: 1.3rem;
+  border-bottom: dotted 4px;
+  margin: 0 0 0 150px;
+}
+
+table{
+  text-align: center;
+  width: 80%;
+  table-layout: fixed;
+  margin: 10px auto;
+  padding: 0;
+  color: #4c4642;
+
+  overflow: hidden;
+  border-radius: 30px;
+
+  word-break: break-all;
+  word-wrap: break-all;
+}
+
+.gallery {
+    columns: 3;
+    padding: 0 150px;
+    margin: 0;
+}
+
+.movie {
+  width: 100%;
+  line-height:100%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 0;
+  align-items: end;
+}
+
+#footlinks {
+    margin: 0 0 60px 0;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.g_images img {
+  width: 10%;
+}

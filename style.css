@@ -1,0 +1,452 @@
+@charset "utf-8";
+
+/* =======================================================
+ *   ページ全体
+ * ======================================================= */
+
+* {
+  margin: 0px;
+  padding: 0px;
+/*
+  参考：http://shiru-web.com/2017/06/26/01-62/
+*/
+}
+
+
+body {
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* =======================================================
+ *   ヘッダー
+ * ======================================================= */
+
+nav a{
+  margin: 0;
+  padding: 0;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+nav li:first-child{
+  padding: 20px 10px;
+  border-bottom-left-radius: 50px;
+}
+
+nav li:last-child{
+  /*border-left: 2px dashed white;*/
+  padding: 20px 0;
+  border-bottom-right-radius: 50px;
+}
+
+nav li:nth-child(2){
+  /*border-left: 2px dashed white;*/
+  padding: 20px 0;
+}
+
+nav li:nth-child(3){
+  /*border-left: 2px dashed white;*/
+  padding: 20px 0;
+}
+
+#menu ul {
+  display: flex;
+}
+
+#menu ul li {
+	flex: 1 0 auto;
+  display: block;
+  color: white;
+  background: #A18E8F;
+}
+
+/*
+  参考：https://gray-code.com/html_css/display-same-size-margin-of-button/
+*/
+
+li+ li {
+  border-left: 2px dashed white;
+}
+
+/*
+nav li:first-child :hover{
+  background: #f0e0e1;
+  border: none;
+}
+*/
+
+/* ======================================================= */
+
+#logo,img {
+  vertical-align: bottom;
+  margin: 10px auto;
+  width: 220px;
+}
+
+h2 {
+  color: #A18E8F;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+h1 {
+  color: #6F625A;
+}
+
+.melon img {
+  width: 100%;
+}
+
+.melon2 img {
+  width: 100%;
+  margin: 10px auto;
+}
+
+/* ======================================================= */
+/* サンプルコード：【CSS】マウスオーバーするとアンダーラインがﾇﾙｯと伸びてくるテキストの作り方 | KuzLog
+    https://kuzlog.com/2018/01/17/2341/
+/* ======================================================= */
+nav a{
+	display: inline-block;
+	position: relative;
+ 	text-decoration: none;
+}
+nav a:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 3px;
+	background: white;
+	transform: scale(0, 1);
+	transition: 0.4s;
+}
+nav a:hover:before {
+	transform: scale(1);
+}
+
+/* =======================================================
+ *   メイン
+ * ======================================================= */
+
+h1.caption {
+  margin: 30px 0 0 0;
+  padding: 2px 40px;
+  color: white;
+
+  font-size: 1.9rem;
+  background: #A18E8F;
+  display:inline-block;
+
+  border-top-right-radius: 30px; 
+  border-bottom-right-radius: 30px; 
+}
+
+
+h1.caption_about {
+  margin: 50px 50px 20px 50px;
+  
+  padding: 2px 40px;
+  color: #A18E8F;
+
+  font-size: 1.9rem;
+  letter-spacing: 10px;
+  border: solid #A18E8F;
+  border-width: 10px;
+
+  border-radius: 50px; 
+  
+  text-align: center;
+}
+
+h1.caption_works {
+  margin: 50px 50px 20px 50px;
+  
+  padding: 0px 40px;
+  color: #A18E8F;
+
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  border: solid #A18E8F;
+  border-width: 10px;
+
+  border-radius: 50px; 
+  
+  text-align: center;
+}
+
+h3.message {
+  margin-top: 30px;
+  margin-left: 38px;
+  font-size: 1rem;
+  color:  #6F625A;
+  line-height: 33px;
+}
+
+h3.message_more {
+  margin-top: 10px;
+  font-size: 1rem;
+  color:  #6F625A;
+  line-height: 33px;
+
+  text-align: center;
+}
+
+.message span {
+  display: block;
+}
+
+.message_more span {
+  display: block;
+}
+
+/* ======================================================= */
+
+.yajirushi {
+  display:flex; /*横並び*/
+  margin: 0 0 0 0 ;
+  padding: 0 0 0 0px;
+  justify-content: center;
+}
+.icon img {
+  width: 37px; /*画像サイズ指定*/
+  height: 37px;
+  margin: 16px 3px 0 0 ;
+  padding: 0px;
+}
+.yajirushi .text {
+  margin: 0px 0px 0 0;
+  padding: 0;
+  font-size: 1.9rem;
+  letter-spacing: -3px;
+  color: #A18E8F;
+}
+.yajirushi a{
+  text-decoration: none;
+}
+
+/* ======================================================= */
+
+h1.caption2 {
+  margin: 80px 0 0 0 ;
+  padding: 2px 40px;
+  color: white;
+
+  font-size: 1.9rem;
+  background: #A18E8F;
+  display:inline-block;
+
+  border-top-right-radius: 30px; 
+  border-bottom-right-radius: 30px; 
+}
+
+
+
+/* ======================================================= */
+
+.SNS{
+  text-align: center;
+  padding: 0;
+  margin: 10px 0 10px 0;
+}
+
+.SNS img{
+  width: 60px;
+  height: 60px;
+}
+
+.icon2 img {
+  width: 60px; /*画像サイズ指定*/
+  height: 60px;
+  margin: 16px 0px 0 0 ;
+  padding: 0px;
+}
+
+
+.timeline {
+  margin: 20px 25px;
+}
+
+/* =======================================================
+ *   フッター
+ * ======================================================= */
+
+footer{
+  font-size:0.3rem;
+  color: #f3e7e7;
+  padding: 15px 0 20px 0;
+  margin: 70px 0 0 0;
+  text-align: center;
+  background-color: #a18e8f;
+}
+
+.footer {
+  width:100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+#footlinks {
+  margin-bottom: 30px;
+}
+
+#footlinks ul, #footlinks li {
+  display: block;
+  margin-left: 0;
+  padding-left: 0;
+  
+}
+
+#footlinks h2 {
+  font-size: 1rem;
+}
+
+#footlinks a {
+  text-decoration: none;
+  color: #f8eded;
+}
+
+#footlinks a:hover {
+  text-decoration: underline;
+}
+
+/* =======================================================
+ *   ローディング画面
+ *    サンプルコード：CSSとJavaScriptでWebページにローディングアニメーションを表示させる方法 | Webクリエイターボックス
+ *    https://www.webcreatorbox.com/tech/loading-animation
+ * ======================================================= */
+
+/* ローディング画面 */
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: #e4bebe;
+  /* 以下のコードを追加 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+ 
+/* コンテンツ部分の装飾 */
+.gallery {
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* =======================================================
+ *   ページベース
+ * ======================================================= */
+
+.komidashi {
+  border-bottom: dotted 4px;
+  padding: 0;
+  margin: 0 0 0 25px;
+  text-align: left;
+}
+
+.komidashi_small {
+  padding: 0;
+  margin: 0 0 0 25px;
+  text-align: center;
+  color: #595450;
+}
+
+/* =======================================================
+ *   表組み
+ * ======================================================= */
+/*
+table, td, th {
+  border: 1px solid gray;
+}
+*/
+table{
+  text-align: center;
+  width: 94%;
+  table-layout: fixed;
+  margin: 10px auto;
+  padding: 0;
+  color: #4c4642;
+
+  overflow: hidden;
+  border-radius: 30px;
+
+
+  word-break: break-all;
+  word-wrap: break-all;
+}
+
+.top_c{
+  background-color: #E5CACA;
+}
+
+.left1{
+  width: 5%;
+
+  background-color: #a18e8f;
+  color: white;
+}
+
+/* =======================================================
+ *   ギャラリー
+ *  サンプルコード：https://hirashimatakumi.com/blog/6601.html
+ * ======================================================= */
+
+.movie {
+  line-height:100%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 0;
+  align-items: end;
+}
+
+.gallery{
+  columns: 4;/*段組みの数*/
+  padding:0 25px;/*ギャラリー左右に余白をつける*/
+  margin: 0;
+}

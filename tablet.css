@@ -1,0 +1,80 @@
+#menu ul li {
+	font-size: 1.5rem;
+}
+
+#logo,img {
+  margin: 10px auto;
+  width: 300px;
+}
+
+
+
+h1.caption {
+  margin: 30px 0 0 0;
+  padding: 2px 80px;
+
+  font-size: 2.3rem;
+  border-top-right-radius: 60px; 
+  border-bottom-right-radius: 60px; 
+}
+
+h3.message {
+  margin-top: 30px;
+  margin-left: 75px;
+  font-size: 1.3rem;
+  color:  #6F625A;
+  line-height: 50px;
+}
+
+h1.caption_about {
+  margin: 50px 50px 20px 50px;
+  
+  padding: 2px 40px;
+  color: #A18E8F;
+
+  font-size: 1.9rem;
+  letter-spacing: 10px;
+  border: solid #A18E8F;
+  border-width: 10px;
+
+  border-radius: 50px; 
+  
+  text-align: center;
+}
+
+h1.caption_works {
+  margin: 50px 50px 20px 50px;
+  
+  padding: 0px 40px;
+  color: #A18E8F;
+
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  border: solid #A18E8F;
+  border-width: 10px;
+
+  border-radius: 50px; 
+  
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  width: 93%;
+  table-layout: fixed;
+  margin: 10px auto;
+  padding: 0;
+  color: #4c4642;
+
+  overflow: hidden;
+  border-radius: 30px;
+
+  word-break: break-all;
+  word-wrap: break-all;
+}
+
+#footlinks {
+    margin: 0 0 60px 0;
+    text-align: center;
+    letter-spacing: 20px;
+}
